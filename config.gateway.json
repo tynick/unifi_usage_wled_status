@@ -1,0 +1,20 @@
+{
+	"system": {
+		"task-scheduler": {
+			"task": {
+				"internet_usage": {
+					"executable": {
+						"path": "/config/scripts/internet_usage.sh"
+					},
+					"interval": "1m"
+				},
+				"reset_usage": {
+					"executable": {
+						"path": "/config/scripts/reset_usage.sh"
+					},
+					"crontab-spec": "1 0 26 * *"
+				}
+			}
+		}
+	}
+}

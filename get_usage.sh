@@ -15,7 +15,7 @@ wled_ip='192.168.1.153'
 # status colors
 very_bad='&A=128&FX=1&SX=245&R=255&G=0&B=0' # red flashing
 bad='&A=128&FX=0&SX=0&R=255&G=0&B=0' # red
-warn='&A=128&FX=0&SX=0&R=255&G=127&B=0' orangish
+warn='&A=128&FX=0&SX=0&R=255&G=127&B=0' # orangish
 ok='&A=128&FX=0&SX=0&R=255&G=255&B=0' # yellowish
 good='&A=128&FX=0&SX=0&R=127&G=255&B=0' # light green
 great='&A=128&FX=0&SX=0&R=0&G=255&B=0' # green

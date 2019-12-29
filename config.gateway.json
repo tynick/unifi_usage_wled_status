@@ -2,9 +2,9 @@
 	"system": {
 		"task-scheduler": {
 			"task": {
-				"internet_usage": {
+				"get_usage": {
 					"executable": {
-						"path": "/config/scripts/internet_usage.sh"
+						"path": "/config/scripts/get_usage.sh"
 					},
 					"interval": "1m"
 				},

@@ -10,6 +10,8 @@ Visit https://tynick.com/blog/12-29-2019/internet-data-usage-monitoring-so-you-d
 
 Queries the WAN port to see how much data has been used (RX and TX) since the last time it was reset.
 
+Sends HTTP request to WLED to change colors based on data usage.
+
 ## reset_usage.sh
 
 Very simple script to reset the counters on the WAN port.

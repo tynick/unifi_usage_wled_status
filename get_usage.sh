@@ -4,9 +4,12 @@
 # change wled color based on usage
 
 # USG port
-interface="eth2"
+# uncomment/comment the next two lines based on what USG model you have
+interface="eth2" # USG PRO 4
+#interface="eth0" # USG
 
-# wled IP address
+
+# IP address of WLED node you want to control
 wled_ip='192.168.1.153'
 
 # status colors

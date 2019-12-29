@@ -13,12 +13,12 @@ interface="eth2" # USG PRO 4
 wled_ip='192.168.1.153'
 
 # status colors
-very_bad='&A=128&FX=1&SX=245&R=255&G=0&B=0'
-bad='&A=128&FX=0&SX=0&R=255&G=0&B=0'
-warn='&A=128&FX=0&SX=0&R=255&G=127&B=0'
-ok='&A=128&FX=0&SX=0&R=255&G=255&B=0'
-good='&A=128&FX=0&SX=0&R=127&G=255&B=0'
-great='&A=128&FX=0&SX=0&R=0&G=255&B=0'
+very_bad='&A=128&FX=1&SX=245&R=255&G=0&B=0' # red flashing
+bad='&A=128&FX=0&SX=0&R=255&G=0&B=0' # red
+warn='&A=128&FX=0&SX=0&R=255&G=127&B=0' orangish
+ok='&A=128&FX=0&SX=0&R=255&G=255&B=0' # yellowish
+good='&A=128&FX=0&SX=0&R=127&G=255&B=0' # light green
+great='&A=128&FX=0&SX=0&R=0&G=255&B=0' # green
 
 # get total bytes from WAN interface
 rx_bytes_used=$(/opt/vyatta/bin/vyatta-op-cmd-wrapper show interfaces ethernet "${interface}" | grep 'RX' -A1 | tail -1 | awk '{ print $1 }' | awk '{ gb =$1 /1024/1024/1024; print gb }')

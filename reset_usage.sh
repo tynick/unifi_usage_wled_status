@@ -1,5 +1,5 @@
 #!/bin/bash
-# tynick.com/blog/12-29-2019/internet-data-usage-monitoring-so-you-dont-hit-your-data-cap/
+# tynick.com/blog/12-30-2019/internet-data-usage-monitoring-so-you-dont-hit-your-data-cap/
 # reset interface counter on ubiquiti USG port
 
 # USG port

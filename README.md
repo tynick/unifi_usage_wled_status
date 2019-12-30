@@ -4,7 +4,7 @@ This repo contains the files used to monitor monthly data usage on a Ubiquiti US
 
 Color of WLED LEDs will change based on how much data has been transferred over WAN port.
 
-Visit https://tynick.com/blog/12-29-2019/internet-data-usage-monitoring-so-you-dont-hit-your-data-cap/ for full instructions on how to get everything setup.
+Visit https://tynick.com/blog/12-30-2019/internet-data-usage-monitoring-so-you-dont-hit-your-data-cap/ for full instructions on how to get everything setup.
 
 ## get_usage.sh
 
